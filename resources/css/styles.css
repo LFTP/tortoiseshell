@@ -6,10 +6,8 @@ body{
 }
 
 .container{
-  
   width: 960px;
   margin: 0 auto;
-
 }
 
 .mainbanner{
@@ -22,10 +20,8 @@ body{
 
 .flexboxheader{
   display: flex;
-
   margin-top: 1rem;
   background-color: cadetblue;
-
   font-size: 1rem;
   color: white;
   margin-bottom: 10rem;
@@ -52,7 +48,6 @@ body{
 .navbar {
   display: flex;
   justify-content: flex-end;
-
   padding-right: 2rem;
 }
 
@@ -65,7 +60,6 @@ ul {
 
 .container .navbar ul {
   list-style-type: none;
-
 }
 
 .navbar li {
@@ -124,22 +118,18 @@ ul {
 
 .servicescontainer .vertical img{
   width: 3.5rem;
-
 }
 
 .about{
-
   display: flex;
 }
 
 .about .products{
   width: 50%;
-
 }
 
 p{
   width: 80%;
-
 }
 
 .about .appointments{
