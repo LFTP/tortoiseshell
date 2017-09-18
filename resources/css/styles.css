@@ -20,6 +20,8 @@ body{
 
 .flexboxheader{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 1rem;
   background-color: cadetblue;
   font-size: 1rem;
@@ -33,7 +35,7 @@ body{
 }
 
 .company {
-  border: 1px solid black;
+
   padding-left: 2rem;
   padding-right: 2rem;
   display: flex;
@@ -53,7 +55,7 @@ body{
 
 
 ul {
-  border: 1px solid black;
+  
   display: flex;
   margin-right: 1rem;
 }
@@ -122,10 +124,13 @@ ul {
 
 .about{
   display: flex;
+  justify-content: center;
 }
 
 .about .products{
-  width: 50%;
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
 }
 
 p{
@@ -133,7 +138,9 @@ p{
 }
 
 .about .appointments{
-  width: 50%;
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
 }
 
 .about span{
