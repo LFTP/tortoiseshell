@@ -1,0 +1,173 @@
+body{
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: white;
+  font-family: Helvetica;
+}
+
+.container{
+  
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.mainbanner{
+  background-image: url("../images/glasses-bg.png");
+  height: 30rem;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexboxheader{
+  display: flex;
+
+  margin-top: 1rem;
+  background-color: cadetblue;
+
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 10rem;
+}
+
+#logo {
+  height:1.5rem;
+  padding-right: 1rem;
+}
+
+.company {
+  border: 1px solid black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.company span{
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+
+  padding-right: 2rem;
+}
+
+
+ul {
+  border: 1px solid black;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.container .navbar ul {
+  list-style-type: none;
+
+}
+
+.navbar li {
+  margin-right: 2rem;
+}
+
+.tagline{
+    display: flex;
+    justify-content: flex-end;
+    width: 550px;
+    margin-left: auto;
+    background-color: white;
+    overflow: visible;
+    margin-right: -2rem;
+}
+
+.tagline h1{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 2rem;
+  line-height:1.2;
+  font-weight: bold;
+}
+
+.services {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.servicescontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  text-align: center;
+
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.servicescontainer span{
+  text-align: center;
+}
+
+.servicescontainer .horizontal img {
+  width: 5rem;
+  margin-bottom: 1.75rem;
+}
+
+.servicescontainer .vertical img{
+  width: 3.5rem;
+
+}
+
+.about{
+
+  display: flex;
+}
+
+.about .products{
+  width: 50%;
+
+}
+
+p{
+  width: 80%;
+
+}
+
+.about .appointments{
+  width: 50%;
+}
+
+.about span{
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+
+
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 5rem;
+  margin-bottom: 1rem;
+}
+
+footer .container {
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+.companyfoot{
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+
+}
